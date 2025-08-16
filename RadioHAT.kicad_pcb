@@ -1303,6 +1303,17 @@
 			(uuid "767947ba-9721-4bb7-bf63-5b8a4b8ff47f")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
+			(offset
+				(xyz -24.1 1.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "RadioHAT:Mini_PCIe"
 		(layer "F.Cu")
