@@ -33,3 +33,6 @@ generated/*
 # Rule check logs
 *-drc.txt
 *-erc.txt
+
+# exported 3D files
+*.step

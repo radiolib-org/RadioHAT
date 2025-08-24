@@ -507,7 +507,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RadioHAT.step",
       "svg": "",
       "vrml": ""
     },
