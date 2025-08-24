@@ -54,6 +54,28 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -2.4 -4.3)
+		(end 28 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "4ab53076-6e91-47d3-a258-c4af5e460766")
+	)
+	(fp_rect
+		(start -2.4 -4.3)
+		(end 28 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "22322752-b55b-4818-9374-8125a1d728f4")
+	)
 	(fp_line
 		(start -2.2 -26.8)
 		(end -2.2 -3.2)
@@ -196,6 +218,28 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "6df08cf2-9e19-465a-b07f-f4f2ca1c2f20")
+	)
+	(fp_rect
+		(start -2.4 -4.3)
+		(end 28 0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "17ec8068-f03c-4d90-a19e-57fecfe50681")
+	)
+	(fp_rect
+		(start -2.4 -4.3)
+		(end 28 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "272660d9-e744-4185-abec-46b82d3bd67c")
 	)
 	(fp_text user "Use 1mm board thickness!"
 		(at 3 3 0)
