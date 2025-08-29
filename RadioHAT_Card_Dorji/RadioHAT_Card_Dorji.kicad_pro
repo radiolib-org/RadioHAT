@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../fab/Card_Dorji/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "RadioHAT_BreakoutCard.step",
