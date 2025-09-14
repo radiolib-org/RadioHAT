@@ -65,6 +65,28 @@
 		(layer "F.Mask")
 		(uuid "e8ab01a2-8402-4c5d-a5bd-5fac4479d755")
 	)
+	(fp_circle
+		(center 0.7 -48.05)
+		(end 2.9 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "7c17470b-12c7-4a39-ab3b-7d7d9e6407cd")
+	)
+	(fp_circle
+		(center 24.9 -48.05)
+		(end 27.1 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "fbd5005a-4f8c-41b5-b98d-0eefe8cb9188")
+	)
 	(fp_rect
 		(start -2.4 -4.2)
 		(end 28 0.3)
@@ -75,6 +97,28 @@
 		(fill yes)
 		(layer "B.Mask")
 		(uuid "311e3091-7e3e-4513-8071-8a994e008129")
+	)
+	(fp_circle
+		(center 0.7 -48.05)
+		(end 2.9 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "e1e55f70-2946-4af2-9e30-bbf6bdd9aa11")
+	)
+	(fp_circle
+		(center 24.9 -48.05)
+		(end 27.1 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "bcb8cba3-128c-4374-9eb9-12275f512f05")
 	)
 	(fp_line
 		(start -2.2 -50.95)
@@ -270,6 +314,28 @@
 		(layer "B.CrtYd")
 		(uuid "f7da4f65-b5d9-47be-8e6b-3d8cd70d5d33")
 	)
+	(fp_circle
+		(center 0.7 -48.05)
+		(end 2.9 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "2aae0a95-491a-4bec-9e6d-e953ae53f96c")
+	)
+	(fp_circle
+		(center 24.9 -48.05)
+		(end 27.1 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "0da63a33-680e-48d2-939d-9b78790a0154")
+	)
 	(fp_rect
 		(start -2.4 -4.2)
 		(end 28 0.3)
@@ -280,6 +346,28 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "488305dc-3a05-42e9-ab97-2856f7b26ae2")
+	)
+	(fp_circle
+		(center 0.7 -48.05)
+		(end 2.9 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1e07db62-8921-410c-8115-22f07a00f7bd")
+	)
+	(fp_circle
+		(center 24.9 -48.05)
+		(end 27.1 -48.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c91c5615-0bdd-4ad9-9c19-82339cfe1a46")
 	)
 	(fp_text user "Use 1mm board thickness!"
 		(at 3 3 0)
