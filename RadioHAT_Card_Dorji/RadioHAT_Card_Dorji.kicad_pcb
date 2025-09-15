@@ -1028,7 +1028,7 @@
 		(descr "Molex Microcoaxial RF Connectors (MCRF), mates Hirose U.FL, (http://www.molex.com/pdm_docs/sd/734120110_sd.pdf)")
 		(tags "mcrf hirose ufl u.fl microcoaxial")
 		(property "Reference" "J4"
-			(at 3.6 0 0)
+			(at -3.6 0 0)
 			(layer "F.SilkS")
 			(uuid "c96a78a7-4fcf-4a5c-a084-b86ec2e16303")
 			(effects
@@ -1714,7 +1714,7 @@
 			(uuid "4d167e91-99fd-4a8e-9d83-ba336e5eda8e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.4 0 0)
+			(at 3.3 0 0)
 			(layer "F.Fab")
 			(uuid "0b9e3675-eea4-4d07-b16f-17745babfdc0")
 			(effects
@@ -4303,6 +4303,18 @@
 			)
 		)
 	)
+	(gr_text "Dorji rev. A\ngitrev: XXXXXXX"
+		(at 158.4 105.4 90)
+		(layer "F.Cu")
+		(uuid "c8358cbc-8868-4fa8-98a8-25a82e058cad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
@@ -4546,7 +4558,7 @@
 		(uuid "2be24c11-576a-44a7-8bbd-a58ec98332b2")
 	)
 	(via
-		(at 146 105)
+		(at 146.9 105)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4634,7 +4646,7 @@
 		(uuid "6a16f1c6-4b48-4570-bafd-4197d0bdc85c")
 	)
 	(via
-		(at 146 103)
+		(at 146.9 103)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4732,7 +4744,7 @@
 		(uuid "a137408b-3663-4d42-bd6e-c2b286499bda")
 	)
 	(via
-		(at 146 101)
+		(at 146.9 101)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4741,7 +4753,7 @@
 		(uuid "a1398db7-de6e-4a91-9096-3feb20d0ff94")
 	)
 	(via
-		(at 146 88.5)
+		(at 147 88.5)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4794,7 +4806,7 @@
 		(uuid "ebf5984e-2106-4062-982a-5ffb6496ea78")
 	)
 	(via
-		(at 146 97)
+		(at 146.9 97)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4821,7 +4833,7 @@
 		(uuid "f48213c0-27a0-429b-aa98-b82d405168d7")
 	)
 	(via
-		(at 146 99)
+		(at 146.9 99)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4830,7 +4842,7 @@
 		(uuid "f4c01176-4bcd-4229-a9c9-726c7ba9fe04")
 	)
 	(via
-		(at 146 86.5)
+		(at 147 86.5)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")

@@ -508,7 +508,7 @@
       "plot": "../fab/Card_Dorji/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "RadioHAT_BreakoutCard.step",
+      "step": "RadioHAT_Card_Dorji.step",
       "svg": "",
       "vrml": ""
     },
