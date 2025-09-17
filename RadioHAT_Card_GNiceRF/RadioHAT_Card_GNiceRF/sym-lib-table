@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RadioHAT")(type "KiCad")(uri "C:/Users/jangr/Documents/hardware/RadioHAT/lib/RadioHAT/RadioHAT.kicad_sym")(options "")(descr ""))
+)
