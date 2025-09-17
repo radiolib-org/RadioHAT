@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(property "Mouser" "571-1775838-2"
+	(property "Connector" "TE 1775838-2"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -65,7 +65,7 @@
 			)
 		)
 	)
-	(property "Standoffs" "153-SMTSOB-M25-3ET"
+	(property "Latch" "Molex 48099-5701"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
