@@ -36,6 +36,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        submodules: 'true'
 
     - name: Run DRC
       run: kibot -d generated -s run_erc -i
@@ -55,6 +57,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        submodules: 'true'
 
     - name: Run fabrication generation
       run: kibot -d generated 3d-render-view pcb_doc_archive pcb_assembly_archive pcb_fabrication_archive
