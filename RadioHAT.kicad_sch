@@ -75,7 +75,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 17.78 0)
 					(length 2.54)
 					(name "SPI_SCK"
@@ -93,7 +93,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 15.24 0)
 					(length 2.54)
 					(name "SPI_MISO"
@@ -111,7 +111,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 12.7 0)
 					(length 2.54)
 					(name "SPI_MOSI"
@@ -129,7 +129,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 10.16 0)
 					(length 2.54)
 					(name "SPI_NSS"
@@ -147,7 +147,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 5.08 0)
 					(length 2.54)
 					(name "GPIO0"
@@ -165,7 +165,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 2.54 0)
 					(length 2.54)
 					(name "IRQ0"
@@ -183,7 +183,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 0 0)
 					(length 2.54)
 					(name "RST0"
@@ -201,7 +201,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 -5.08 0)
 					(length 2.54)
 					(name "GPIO1"
@@ -219,7 +219,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 -7.62 0)
 					(length 2.54)
 					(name "IRQ1"
@@ -237,7 +237,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 -10.16 0)
 					(length 2.54)
 					(name "RST1"
@@ -633,7 +633,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 17.78 180)
 					(length 2.54)
 					(name "I2C_SCL"
@@ -651,7 +651,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 15.24 180)
 					(length 2.54)
 					(name "I2C_SCL"
@@ -669,7 +669,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 12.7 180)
 					(length 2.54)
 					(name "USB_D-"
@@ -687,7 +687,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 10.16 180)
 					(length 2.54)
 					(name "USB_D+"
@@ -705,7 +705,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 3.81 180)
 					(length 2.54)
 					(name "PPS"
@@ -723,7 +723,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 1.27 180)
 					(length 2.54)
 					(name "LED0"
@@ -741,7 +741,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 -1.27 180)
 					(length 2.54)
 					(name "LED1"
@@ -759,7 +759,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 21.59 -3.81 180)
 					(length 2.54)
 					(name "LED2"
