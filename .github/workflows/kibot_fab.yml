@@ -1,0 +1,63 @@
+# copied from https://github.com/Sabolik/nixie-clock-hw/blob/main/.github/workflows/kibot_fab.yml
+
+name: KiBot CI
+
+on:
+  push:
+    paths:
+    - '**.kicad_sch'
+    - '**.kicad_pcb'
+
+  workflow_dispatch:
+
+jobs:
+  erc:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.5
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run ERC
+      run: kibot -d generated -s run_drc -i
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: ERC_Output
+        path: generated
+
+  drc:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.5
+    needs: erc
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run DRC
+      run: kibot -d generated -s run_erc -i
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: DRC_Output
+        path: generated
+
+  fab:
+    name: generate fabrication files
+    runs-on: ubuntu-latest
+    if: github.ref_type == 'tag'
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.5
+    needs: drc
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run fabrication generation
+      run: kibot -d generated 3d-render-view pcb_doc_archive pcb_assembly_archive pcb_fabrication_archive
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: generated/*
