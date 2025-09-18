@@ -4304,7 +4304,7 @@
 			)
 		)
 	)
-	(gr_text "Dorji rev. A\ngitrev: XXXXXXX"
+	(gr_text "Dorji rev. A\ngitrev XXXXXXX"
 		(at 132.8 71.7 0)
 		(layer "F.Cu")
 		(uuid "c8358cbc-8868-4fa8-98a8-25a82e058cad")
