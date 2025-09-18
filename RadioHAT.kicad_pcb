@@ -2727,7 +2727,7 @@
 		(layer "F.SilkS")
 		(uuid "f28fc42d-f2bb-49f7-a3ef-393e2cf073bc")
 	)
-	(gr_text "RadioHAT rev. A\ngitrev XXXXXXX"
+	(gr_text "RadioHAT rev. A\ngitrev GITHASH"
 		(at 119.7 123.2 0)
 		(layer "F.Cu")
 		(uuid "553f90e7-40ee-48ff-944a-9003419a29d1")
