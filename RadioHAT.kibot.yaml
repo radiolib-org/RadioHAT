@@ -1,0 +1,392 @@
+kibot:
+  version: 1
+
+preflight:
+  check_zone_fills: true
+  run_erc: true
+  run_drc:
+    enabled : true
+    ignore_unconnected: true
+
+  set_text_variables:
+    ## Replace git hash inside schematic and pcb prints for revision tracking
+    - name: 'GITHASH'
+      command: 'git log -1 --format="%h"'
+      before: ''
+      after: ''
+    ## Replace date in prints
+    - name: 'DATE'
+      command: 'date +"%Y-%m-%d"'
+
+global:
+  ## Set output directory
+  out_dir: generated
+
+# Grouping of outputs
+groups:
+  - name: fab
+  - name: assembly
+  - name: rendering
+  - name: doc
+    outputs:
+      - rendering
+
+filters:
+  ## Exclude test points and solder bridges from BoM but not the mounting holes
+  - name: 'exclude_test'
+    type: 'generic'
+    comment: 'Excludes test points and solder bridges'
+    exclude_any:
+      - column: References
+        regex: '^TP[0-9]*'
+      - column: References
+        regex: '^MH[0-9]*'
+      - column: Part
+        regex: 'solder.*bridge'
+      - column: Part
+        regex: 'solder.*jump'
+      - column: Part
+        regex: 'test.*point'
+      - column: Footprint
+        regex: 'test.*point'
+
+outputs:
+## PCB Manufacturing data
+### Gerbers
+  - name: 'gerbers'
+    groups: fab
+    comment: "Gerbers for the board house"
+    type: gerber
+    dir: pcb_fabrication/gerbers
+    options:
+      # generic layer options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      use_aux_axis_as_origin: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+
+      # gerber options
+      line_width: 0.1
+      subtract_mask_from_silk: false
+      use_protel_extensions: false
+      gerber_precision: 4.6
+      create_gerber_job_file: true
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: true
+    layers:
+      - 'copper'
+      - F.Mask
+      - B.Mask
+      - F.Silkscreen
+      - B.Silkscreen
+      - Edge.Cuts
+
+### Gerbers of stencil
+  - name: 'gerbers_stencil_fab'
+    groups: fab
+    comment: "Gerbers of stencil for the assembly house"
+    type: gerber
+    dir: pcb_fabrication/gerbers
+    extends: gerbers
+    options:
+      variant: ''
+    layers:
+      - F.Paste
+      - B.Paste
+
+### Drills
+  - name: drill
+    groups: fab
+    comment: Drill files
+    type: excellon
+    dir: pcb_fabrication/gerbers
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+      use_aux_axis_as_origin: true
+
+### Design report
+  - name: 'report'
+    groups: fab
+    comment: 'Design report for PCB manufacturer'
+    type: 'report'
+    dir: pcb_fabrication
+
+### Fabrication options
+  - name: 'fab_options'
+    groups: fab
+    comment: "PCB fabrication options"
+    type: pcb_print
+    dir: pcb_fabrication
+    options:
+      format: 'PDF'
+      output: '%f_fabrication-options.%x'
+      force_edge_cuts: true
+      pages:
+        - layers:
+          - layer: User.Comments
+            color: '#000000'
+          monochrome: true
+
+### Compressed archive of fabrication data
+  - name: pcb_fabrication_archive
+    groups: fab
+    comment: 'Generates an archive with all the manufacturing data for PCB production'
+    type: compress
+    options:
+      output: '%f-pcb_fabrication.%x'
+      files:
+        - from_output: drill
+        - from_output: gerbers
+        - from_output: gerbers_stencil_fab
+        - from_output: report
+        - from_output: fab_options
+
+## PCB Assembly data
+### Bill of Material in various formats
+  - name: 'bom_html'
+    groups: assembly
+    comment: "Bill of Materials in HTML format"
+    type: bom
+    dir: pcb_assembly/bom
+    options:
+      format: HTML
+
+  - name: 'bom_csv'
+    groups: assembly
+    comment: "Bill of Materials in CSV format"
+    type: bom
+    dir: pcb_assembly/bom
+    options:
+      format: CSV
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+
+  - name: 'bom_i'
+    groups: assembly
+    comment: "Bill of Materials in interactive HTML format"
+    type: ibom
+    dir: pcb_assembly/bom
+    options:
+      dark_mode: true
+
+### Assembly drawings
+  - name: 'pcb_print'
+    groups: assembly
+    comment: "PCB PDF"
+    type: pcb_print
+    dir: pcb_assembly/position
+    options:
+      format: 'PDF'
+      output: '%f-%i%I%v.%x'
+      force_edge_cuts: true
+      pages:
+        - layers:
+          - layer: F.Fab
+            color: '#000000'
+            plot_footprint_values: false
+          monochrome: true
+        - layers:
+          - layer: B.Fab
+            color: '#000000'
+            plot_footprint_values: false
+          mirror: true
+          monochrome: true
+
+### Pick and place position file
+  - name: 'pos'
+    groups: assembly
+    comment: 'Pick and place position file'
+    type: position
+    dir: pcb_assembly/position
+    options:
+      format: CSV
+      separate_files_for_front_and_back: true
+      units: 'millimeters'
+      use_aux_axis_as_origin: true
+      only_smd: false
+      exclude_filter: exclude_test
+      include_virtual: true
+
+### Gerbers of stencil
+  - name: 'gerbers_stencil_assembly'
+    groups: assembly
+    comment: "Gerbers of stencil for the assembly house"
+    type: gerber
+    dir: pcb_assembly/stencil
+    extends: gerbers
+    options:
+      variant: ''
+    layers:
+      - F.Paste
+      - B.Paste
+
+### Compressed archive of assembly data
+  - name: pcb_assembly_archive
+    groups: assembly
+    comment: 'Generates an archive with all the manufacturing data for PCB assembly'
+    type: compress
+    options:
+      output: '%f-pcb_assembly.%x'
+      files:
+        - from_output: pcb_print
+        - from_output: pos
+        - from_output: bom_csv
+        - from_output: bom_html
+        - from_output: bom_i
+        - from_output: gerbers_stencil_assembly
+
+## Documentation data
+### Schematics
+  - name: 'print_sch'
+    groups: doc
+    comment: "Schematic PDF"
+    type: pdf_sch_print
+    dir: pcb_documentation/electrical
+
+### Mechanical dimensions
+  - name: 'dimensions_pdf'
+    groups: doc
+    comment: "Mechanical dimension PDF"
+    type: pcb_print
+    dir: pcb_documentation/mechanical
+    options:
+      format: 'PDF'
+      output: '%f_dimensions.%x'
+      force_edge_cuts: true
+      pages:
+        - layers:
+          - layer: User.Drawings
+          monochrome: true
+
+  - name: 'dimensions_dxf'
+    groups: doc
+    comment: "Mechanical dimension DXF"
+    type: dxf
+    dir: pcb_documentation/mechanical
+    layers:
+      - layer: Edge.Cuts
+    options:
+      drill_marks: full
+      metric_units: true
+      use_aux_axis_as_origin: true
+
+### Step model
+  - name: step
+    groups: doc
+    run_by_default: false
+    comment: "3D STEP model of the PCB"
+    type: step
+    dir: pcb_documentation/mechanical
+    options:
+      download: true
+      origin: 'grid'
+      metric_units: true
+
+### 3D renders
+  - name: '3d-render-view'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: .
+    options:
+      view: 'bottom'
+      rotate_x: 5
+      rotate_z: 1
+      orthographic: false
+      transparent_background: true
+      show_silkscreen: false
+      zoom: 9
+      auto_crop: true
+      ray_tracing: true
+
+  - name: '3d-render-top'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: pcb_documentation/renders
+    options:
+      view: 'top'
+      orthographic: true
+      transparent_background: true
+      show_silkscreen: false
+      zoom: 0
+      auto_crop: true
+      ray_tracing: true
+
+  - name: '3d-render-bot'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: pcb_documentation/renders
+    extends: '3d-render-top'
+    options:
+      view: 'bottom'
+
+  - name: '3d-render-left'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: pcb_documentation/renders
+    extends: '3d-render-top'
+    options:
+      view: 'left'
+
+  - name: '3d-render-right'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: pcb_documentation/renders
+    extends: '3d-render-top'
+    options:
+      view: 'right'
+
+  - name: '3d-render-front'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: pcb_documentation/renders
+    extends: '3d-render-top'
+    options:
+      view: 'front'
+
+  - name: '3d-render-rear'
+    groups: rendering
+    run_by_default: false
+    comment: "PCB 3d model image"
+    type: render_3d
+    dir: pcb_documentation/renders
+    extends: '3d-render-top'
+    options:
+      view: 'rear'
+
+
+### Compressed archive of documentation data### Compressed archive of assembly data
+  - name: pcb_doc_archive
+    groups: doc
+    comment: 'Generates an archive with all the documentation data for the project'
+    type: compress
+    options:
+      output: '%f-pcb_doc.%x'
+      files:
+        - from_output: print_sch
+        - from_output: dimensions_pdf
+        - from_output: dimensions_dxf
+        - from_output: step
+        - from_output: 3d-render-top
+        - from_output: 3d-render-bot
+        - from_output: 3d-render-left
+        - from_output: 3d-render-right
+        - from_output: 3d-render-front
+        - from_output: 3d-render-rear
