@@ -13,7 +13,7 @@ on:
 jobs:
   erc:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.5
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.4-3_k9.0.1_d12.7_b4.2.4LTS
 
     steps:
     - uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
 
   drc:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.5
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.4-3_k9.0.1_d12.7_b4.2.4LTS
     needs: erc
 
     steps:
@@ -48,7 +48,7 @@ jobs:
     name: generate fabrication files
     runs-on: ubuntu-latest
     if: github.ref_type == 'tag'
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.5
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:1.8.4-3_k9.0.1_d12.7_b4.2.4LTS
     needs: drc
 
     steps:
