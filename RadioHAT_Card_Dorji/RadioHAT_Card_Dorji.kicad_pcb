@@ -1387,7 +1387,7 @@
 			(net 31 "Net-(J4-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "85813668-fa3c-4319-a9a7-09f1dae33f6a")
+			(uuid "8eb21086-bed8-4cec-a35b-f6901445dd8d")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0 90)
@@ -1397,7 +1397,7 @@
 			(net 31 "Net-(J4-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "85813668-fa3c-4319-a9a7-09f1dae33f6a")
+			(uuid "c6cc4bc0-35e5-494a-8b15-951295a3fd95")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -1765,7 +1765,7 @@
 			(net 29 "Net-(J2-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "427c1d2e-55e9-457b-8cfd-d68a2f254c90")
+			(uuid "75e78056-df6a-471f-a940-7d1fa64f9901")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0 90)
@@ -1775,7 +1775,7 @@
 			(net 29 "Net-(J2-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "427c1d2e-55e9-457b-8cfd-d68a2f254c90")
+			(uuid "7e73122f-7eb9-408d-ac90-074bda7136ba")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -2515,7 +2515,7 @@
 			(net 30 "Net-(J3-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7ec5ef91-0969-4848-85d6-5778e9dfc256")
+			(uuid "574e4045-8ba5-440b-94dd-bce5cc1b6cd6")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0 90)
@@ -2525,7 +2525,7 @@
 			(net 30 "Net-(J3-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "7ec5ef91-0969-4848-85d6-5778e9dfc256")
+			(uuid "53481aae-9f19-44df-a18c-4ca9bf1d36cb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -3908,7 +3908,7 @@
 			(net 32 "Net-(J5-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "142019dd-80f8-40df-837f-c0a6eda5ec9f")
+			(uuid "6d5550a9-5f1c-42be-a960-7ab06557dac1")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0 270)
@@ -3918,7 +3918,7 @@
 			(net 32 "Net-(J5-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "142019dd-80f8-40df-837f-c0a6eda5ec9f")
+			(uuid "b6938feb-3802-4e1b-9f41-2b83c414d638")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -4291,7 +4291,7 @@
 			(net 33 "Net-(J6-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "02547ae0-9593-46d9-be00-ab368df05237")
+			(uuid "4aad8ea6-5f98-4325-bf85-97c77dca7c83")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0 270)
@@ -4301,7 +4301,7 @@
 			(net 33 "Net-(J6-Ext)")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "02547ae0-9593-46d9-be00-ab368df05237")
+			(uuid "144239d3-1ab8-42fb-b14b-ad26b9c51144")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -4316,7 +4316,7 @@
 			)
 		)
 	)
-	(gr_text "Dorji rev. A\ngitrev GITHASH"
+	(gr_text "Dorji rev. A\ngitrev ${GITHASH}"
 		(at 132.8 71.7 0)
 		(layer "F.Cu")
 		(uuid "c8358cbc-8868-4fa8-98a8-25a82e058cad")

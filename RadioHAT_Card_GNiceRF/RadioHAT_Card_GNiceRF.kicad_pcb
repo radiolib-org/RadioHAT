@@ -4283,7 +4283,7 @@
 			)
 		)
 	)
-	(gr_text "GNice-RF rev. A\ngitrev GITHASH"
+	(gr_text "GNice-RF rev. A\ngitrev ${GITHASH}"
 		(at 138.4 72 0)
 		(layer "F.Cu")
 		(uuid "227b3c57-4549-42ff-98bf-bd0819d6ccd8")
