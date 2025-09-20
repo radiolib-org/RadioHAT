@@ -298,12 +298,13 @@ outputs:
     options:
       view: 'top'
       rotate_x: 6
-      rotate_z: 3
+      rotate_z: -3
+      move_y: 2
       orthographic: false
       transparent_background: true
       show_silkscreen: true
       auto_crop: true
-      ray_tracing: true
+      ray_tracing: false
 
   - name: '3d-render-top'
     groups: rendering
