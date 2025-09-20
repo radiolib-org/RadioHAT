@@ -300,6 +300,7 @@ outputs:
       rotate_x: 6
       rotate_z: -3
       move_y: 2
+      zoom: 2
       orthographic: false
       transparent_background: true
       show_silkscreen: true
