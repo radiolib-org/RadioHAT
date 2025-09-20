@@ -3,8 +3,8 @@ kibot:
 
 preflight:
   check_zone_fills: true
-  run_erc: true
-  run_drc:
+  erc: true
+  drc:
     enabled : true
     ignore_unconnected: true
 
@@ -281,7 +281,7 @@ outputs:
     groups: doc
     run_by_default: false
     comment: "3D STEP model of the PCB"
-    type: step
+    type: export_3d
     dir: pcb_documentation/mechanical
     options:
       download: true
@@ -297,12 +297,11 @@ outputs:
     dir: .
     options:
       view: 'bottom'
-      rotate_x: 5
-      rotate_z: 1
+      rotate_x: 6
+      rotate_z: 3
       orthographic: false
       transparent_background: true
-      show_silkscreen: false
-      zoom: 9
+      show_silkscreen: true
       auto_crop: true
       ray_tracing: true
 
