@@ -296,7 +296,7 @@ outputs:
     type: render_3d
     dir: .
     options:
-      view: 'bottom'
+      view: 'top'
       rotate_x: 6
       rotate_z: 3
       orthographic: false
