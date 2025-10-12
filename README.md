@@ -54,7 +54,32 @@ The complete pinout of the connector (and therefore the PCIe cards) is shown bel
 |  49 | SPI_MOSI | GND      | 50  |
 |  51 | SPI_NSS  | 3V3      | 52  |
 
+## Raspberry Pi pinout
 
-TODO:
+The shield routes the Mini PCIe connector signals to the following Raspberry Pi GPIO header pins.
+
+| Pin | Signal   | Signal   | Pin |
+| --- | -------- | -------- | --- |
+|   1 | 3V3      | NC       | 2   |
+|   3 | I2C_SCL  | NC       | 4   |
+|   5 | I2C_SDA  | GND      | 6   |
+|   7 | NC       | NC       | 8   |
+|   9 | GND      | NC       | 10  |
+|  11 | NC       | RST0     | 12  |
+|  13 | NC       | GND      | 14  |
+|  15 | NC       | GPIO1    | 16  |
+|  17 | 3V3      | IRQ1     | 18  |
+|  19 | SPI_MOSI | GND      | 20  |
+|  21 | SPI_MISO | RST1     | 22  |
+|  23 | SPI_SCK  | NC       | 24  |
+|  25 | GND      | NC       | 26  |
+|  27 | NC       | NC       | 28  |
+|  29 | NC       | GND      | 30  |
+|  31 | NC       | NC       | 32  |
+|  33 | NC       | GND      | 34  |
+|  35 | NC       | IRQ0     | 36  |
+|  37 | NC       | GPIO0    | 38  |
+|  39 | GND      | NSS      | 40  |
+
+## TODO list
  * split digital signals to allow multiple modules on a single card
- * add RPi pinout to readme
