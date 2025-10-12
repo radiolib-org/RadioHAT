@@ -12,6 +12,9 @@ The HAT is a simple adapter board for mini-PCIe cards (half-size or full-size). 
 ## Card for modules from GNice-RF
 ![RadioHAT GNice-RF card](https://github.com/radiolib-org/RadioHAT/releases/latest/download/RadioHAT_Card_GNiceRF-3D_top.png)
 
+## Card for modules from Ebyte
+![RadioHAT Ebyte card](https://github.com/radiolib-org/RadioHAT/releases/latest/download/RadioHAT_Card_Ebyte-3D_top.png)
+
 TODO:
  * split digital signals to allow multiple modules on a single card
  * add PCIe pinout table to readme
