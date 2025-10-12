@@ -2840,6 +2840,12 @@
 		(uuid "0e328f33-ef49-4254-be2e-33015c548d0a")
 	)
 	(junction
+		(at 215.9 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20b4f216-c840-4a99-85c8-6b7936f6d519")
+	)
+	(junction
 		(at 49.53 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2990,6 +2996,18 @@
 		(uuid "a738e33c-ca6e-4c91-9df9-97bca6f9ea7d")
 	)
 	(junction
+		(at 218.44 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa985efd-cfa7-4600-be79-66db5ad3246b")
+	)
+	(junction
+		(at 220.98 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae3fd0f-0852-4ee0-89cc-960262637534")
+	)
+	(junction
 		(at 55.88 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3036,6 +3054,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e92f6b92-200d-4ecc-824e-e4f66c30bf78")
+	)
+	(junction
+		(at 226.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e94111d9-2023-4e47-b3fe-f04afb4aa780")
 	)
 	(no_connect
 		(at 151.13 45.72)
@@ -5987,6 +6011,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 226.06 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fa789a0-3ee7-42d2-93b4-d16cab2a8e71")
+		(property "Reference" "#FLG04"
+			(at 226.06 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ffbaf1-bdd9-4dc7-90c7-a3a5e19ea4dc")
+		)
+		(instances
+			(project "RadioHAT_Card_Ebyte"
+				(path "/e9109f3e-b5d7-46b8-a57a-df08aa006881"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 25.4 0)
 		(unit 1)
@@ -6453,6 +6543,72 @@
 			(project "RadioHAT_Card_Ebyte"
 				(path "/e9109f3e-b5d7-46b8-a57a-df08aa006881"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 218.44 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a93fe67-e31f-4353-b2dc-d9c8bccf9eff")
+		(property "Reference" "#FLG05"
+			(at 218.44 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c31b1c24-8edc-4ab2-abc4-a21896427464")
+		)
+		(instances
+			(project "RadioHAT_Card_Ebyte"
+				(path "/e9109f3e-b5d7-46b8-a57a-df08aa006881"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -6990,6 +7146,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 215.9 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895e6dac-444a-49e7-852d-cdf38c4e1933")
+		(property "Reference" "#FLG03"
+			(at 215.9 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca85ec14-425b-4f24-8886-dac764c6caee")
+		)
+		(instances
+			(project "RadioHAT_Card_Ebyte"
+				(path "/e9109f3e-b5d7-46b8-a57a-df08aa006881"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 125.73 0)
 		(unit 1)
@@ -7117,6 +7339,72 @@
 			(project "RadioHAT_Card_Ebyte"
 				(path "/e9109f3e-b5d7-46b8-a57a-df08aa006881"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 220.98 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9d7e473-a885-4509-9d17-453d45e293b9")
+		(property "Reference" "#FLG06"
+			(at 220.98 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 220.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd60691-830c-49fc-976d-61efc76e7db4")
+		)
+		(instances
+			(project "RadioHAT_Card_Ebyte"
+				(path "/e9109f3e-b5d7-46b8-a57a-df08aa006881"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
