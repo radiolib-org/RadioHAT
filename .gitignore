@@ -36,3 +36,4 @@ generated/*
 
 # exported 3D files
 *.step
+!stp/*.step
