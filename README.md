@@ -1,7 +1,13 @@
 # RadioHAT
 Raspberry Pi PCIe HAT for radio modules
 
-The HAT is a simple adapter board for mini-PCIe cards (half-size or full-size). The cards themselves house various RF modules.
+This HAT is an all-in-one radio modules development platform with the following features. 
+
+* **Built-in logic analyzer** - All pins routed to the transceivers (SPI and various GPIO signals) are also routed to additional Raspberry Pi GPIO pins, to allow the RPi to monitor and record the state of communication pins.
+* **Adjustable linear voltage regulator** - To supply power-intensive transceivers, there is a dedicated LDO regulator with adjustable output. The output voltage is adjustable between 2.9 and 3.6 V.
+* **Power consumption measurement** - There is a built-iny INA219 current monitor which allows to measure the power consumption of the transceiver.
+
+While these features are useful, they are entirely optional. Without them, the HAT is a simple adapter board for mini-PCIe cards (half-size or full-size) and can be left with most of the components unpopulated, except for the RPi pin header, PCIe connector and the card latch.
 
 ## RadioHAT
 ![RadioHAT](https://github.com/radiolib-org/RadioHAT/releases/latest/download/RadioHAT-3D_top.png?raw=true)
