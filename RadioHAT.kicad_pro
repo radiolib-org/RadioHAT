@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|140000000|98500000|b90536d7-00e0-453f-bcf9-719acb5cfa12|00000000-0000-0000-0000-000000000000",
-          "Updated from the template"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -193,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -249,7 +245,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|914400|1511300|ed2f8924-0a53-464e-b9f0-ca9c56010bf6|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -637,5 +638,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "GITHASH": "githash"
+  }
 }

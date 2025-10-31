@@ -81,5 +81,3 @@ The shield routes the Mini PCIe connector signals to the following Raspberry Pi 
 |  37 | NC       | GPIO0    | 38  |
 |  39 | GND      | NSS      | 40  |
 
-## TODO list
- * split digital signals to allow multiple modules on a single card
