@@ -968,4 +968,15 @@
 		(uuid "8078a449-fb6f-4a72-921c-119ae51fa0cf")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
+		(offset
+			(xyz -24.1 -1.4 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
 )
