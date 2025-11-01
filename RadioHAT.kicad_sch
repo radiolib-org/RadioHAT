@@ -13569,7 +13569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RadioHAT:3362P1200LF"
+		(property "Footprint" "RadioHAT:Potentiometer_Bourns_3362P1200LF"
 			(at 91.44 151.13 0)
 			(effects
 				(font

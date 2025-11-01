@@ -1,4 +1,4 @@
-(footprint "3362P1200LF"
+(footprint "Potentiometer_Bourns_3362P1200LF"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "3362P1200LF"
+	(property "Value" "Potentiometer_Bourns_3362P1200LF"
 		(at 2.54 0.035 0)
 		(layer "F.SilkS")
 		(hide yes)
