@@ -151,6 +151,7 @@
 		(property "Reference" "JP4"
 			(at 0 1.8288 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aedb44fd-6d0d-43b6-81ea-ed22deabcf64")
 			(effects
 				(font
@@ -522,7 +523,8 @@
 		(property "Reference" "JP2"
 			(at 0 -1.8 90)
 			(layer "F.SilkS")
-			(uuid "7e25e4ab-772f-4f53-98bc-3614df9e94bd")
+			(hide yes)
+			(uuid "a12a1a99-e5ad-4e7f-b0d6-2b4677bd7dd5")
 			(effects
 				(font
 					(size 1 1)
@@ -533,7 +535,7 @@
 		(property "Value" "SolderJumper_3_Bridged12"
 			(at 0 1.9 90)
 			(layer "F.Fab")
-			(uuid "9cff2f33-fd0f-4e1a-866d-ab72cfedb411")
+			(uuid "7b627380-6c6f-4981-bc91-fbeaa076cfda")
 			(effects
 				(font
 					(size 1 1)
@@ -546,7 +548,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f051a68f-627c-45ff-b9e6-e738cca9354c")
+			(uuid "ee7bf815-30e3-4605-a1d8-7f2680380536")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +561,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af1286e3-1fc2-4369-a755-262f5dbd9774")
+			(uuid "0ae2c220-3a5d-437b-973c-edba757d17e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,28 +678,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "2745d9fa-f225-4dc6-9449-3e6dfd3b5671")
-		)
-		(fp_text user "3"
-			(at 2.6 0 90)
-			(layer "F.SilkS")
-			(uuid "45f4a732-6829-481c-9af4-afa4cd323969")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -2.6 0 90)
-			(layer "F.SilkS")
-			(uuid "599dcd12-94e0-487d-ae4a-885863ca395d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.3 0 270)
@@ -3277,7 +3257,8 @@
 		(property "Reference" "JP1"
 			(at 0 -1.8 90)
 			(layer "F.SilkS")
-			(uuid "94c7f586-9efe-4ba7-b03c-7bbb0a6f91e3")
+			(hide yes)
+			(uuid "5d560be2-686d-4d48-be5d-b49889c67a9b")
 			(effects
 				(font
 					(size 1 1)
@@ -3288,7 +3269,7 @@
 		(property "Value" "SolderJumper_3_Bridged12"
 			(at 0 1.9 90)
 			(layer "F.Fab")
-			(uuid "a18eca2e-322f-4adf-b610-b750f2813897")
+			(uuid "6fc99330-e025-4199-a6e5-9d9f942be619")
 			(effects
 				(font
 					(size 1 1)
@@ -3301,7 +3282,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "945114d7-82e5-42c1-a801-c2c2aef0d28c")
+			(uuid "eaeb7ac5-341b-47de-aa31-b6f37a8801a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3295,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69c9040b-008f-4516-8b3a-451919bf072d")
+			(uuid "0eb1499c-7c34-47d2-a402-7ac4ae917d29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,28 +3412,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "fe19c52a-ad26-4f07-94c0-28603ff99b44")
-		)
-		(fp_text user "3"
-			(at 2.6 0 90)
-			(layer "F.SilkS")
-			(uuid "25c3b9a2-9877-4796-8a2e-c525881712f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -2.6 0 90)
-			(layer "F.SilkS")
-			(uuid "694eea14-700a-41ae-ae7b-c22113158858")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.3 0 270)
@@ -4486,6 +4445,7 @@
 		(property "Reference" "JP5"
 			(at 0 -1.8 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3436d4d6-95e9-49cc-a932-5906cf0f4a39")
 			(effects
 				(font
@@ -4627,28 +4587,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "ba0a2384-6b9b-471d-9821-c020127f12bb")
-		)
-		(fp_text user "1"
-			(at -2.6 0 90)
-			(layer "F.SilkS")
-			(uuid "81aaae43-e25e-4c47-bbe0-2b7fc7f4eb2d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "3"
-			(at 2.6 0 90)
-			(layer "F.SilkS")
-			(uuid "9b7510cb-7c03-4756-974c-1c77e49e12cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.3 0 270)
@@ -10456,6 +10394,42 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "PWR_LDO"
+		(at 149.7584 90.6272 0)
+		(layer "F.SilkS")
+		(uuid "79996a7d-8207-45cd-bb7f-a6b7ac081fb6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "INA_BYPASS"
+		(at 157.6324 90.0684 0)
+		(layer "F.SilkS")
+		(uuid "cb2c7571-1e4a-43a9-9541-4582ad9a86f0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "PWR_RPI"
+		(at 149.8092 92.3036 0)
+		(layer "F.SilkS")
+		(uuid "e649b8ec-00b1-4ccb-9570-cfc758bb36ba")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(segment
