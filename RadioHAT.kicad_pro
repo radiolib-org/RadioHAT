@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|157574600|106413500|692055d7-7b7f-4a80-ba3f-06f81bc68468|6b46d591-30f7-4bbf-bd8d-49b585a78d64",
+          "Intentional for solder jumper"
+        ],
+        [
+          "starved_thermal|146380000|74653001|abc81b6c-5d19-4b0e-ad69-5e6a2523f2b4|da215f09-5d0f-4336-8f54-88be4e9a3a51|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -189,7 +198,7 @@
       "track_widths": [
         0.0,
         0.4,
-        0.5
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
