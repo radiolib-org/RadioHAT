@@ -4439,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 116.84) (xy 180.34 116.84)
+			(xy 171.45 116.84) (xy 180.34 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4749,7 +4749,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 114.3) (xy 175.26 116.84)
+			(xy 171.45 114.3) (xy 171.45 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5449,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 106.68) (xy 175.26 104.14)
+			(xy 171.45 106.68) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6269,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 184.15 104.14)
+			(xy 171.45 104.14) (xy 184.15 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8892,6 +8892,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-AF0603FR-0710KL"
+			(at 210.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97a4edba-8369-439d-b312-effb29a0dcb7")
 		)
@@ -9025,6 +9034,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW060310R0FKEAC"
+			(at 163.83 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,6 +9786,15 @@
 				)
 			)
 		)
+		(property "Mouser" "603-AF0603FR-0710KL"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "220244fc-ef46-4e40-9332-89f2c18bed82")
 		)
@@ -10280,6 +10307,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" "603-RC0603FR-106K8L"
+			(at 91.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11018,6 +11054,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-AF0603FR-0710KL"
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac97ca8b-001b-411f-a14c-8a907efcdf49")
 		)
@@ -11118,7 +11163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 111.76 152.3999 0)
 			(effects
 				(font
@@ -11975,7 +12020,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 110.49 0)
+		(at 171.45 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11984,7 +12029,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8e385c1-1c0b-4d2b-8197-238586308a42")
 		(property "Reference" "C3"
-			(at 179.07 109.2199 0)
+			(at 175.26 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +12038,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 179.07 111.7599 0)
+			(at 175.26 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12001,8 +12046,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 176.2252 114.3 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 172.4152 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12011,7 +12056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 110.49 0)
+			(at 171.45 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,7 +12065,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.26 110.49 0)
+			(at 171.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "581-KAM21AR71A106MU"
+			(at 171.45 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,6 +12276,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AF0603FR-0710KL"
 			(at 54.61 134.62 0)
 			(effects
 				(font
@@ -12844,7 +12907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 44.45 142.2399 0)
 			(effects
 				(font
