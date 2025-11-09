@@ -4411,6 +4411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "571-1775838-2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Mini_PCIe_1_1"
 			(rectangle
 				(start -19.05 24.13)
@@ -5265,6 +5274,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-SSQ12004TD"
 			(at 0 0 0)
 			(effects
 				(font

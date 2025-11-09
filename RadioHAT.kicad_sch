@@ -1643,6 +1643,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser" "571-1775838-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Mini_PCIe_1_1"
 				(rectangle
 					(start -19.05 24.13)
@@ -2497,6 +2506,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "200-SSQ12004TD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9526,6 +9544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "963-MAJCU168BB7104KT"
+			(at 173.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2e07ee2-b4c3-4626-9a00-9194d905ebe0")
 		)
@@ -11674,6 +11701,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "200-SSQ12004TD"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "35"
 			(uuid "1ed75440-8b74-4351-b619-406f8a8d3e45")
 		)
@@ -11995,6 +12031,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "963-MAJCU168BB7104KT"
 			(at 184.15 110.49 0)
 			(effects
 				(font
@@ -12658,6 +12703,15 @@
 		)
 		(property "Description" ""
 			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-1775838-2"
+			(at 246.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
