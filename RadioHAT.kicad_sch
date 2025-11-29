@@ -10292,7 +10292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "5.1k"
 			(at 93.98 163.8299 0)
 			(effects
 				(font
@@ -10336,7 +10336,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-106K8L"
+		(property "Mouser" "279-CRG0603F5K1"
 			(at 91.44 162.56 0)
 			(effects
 				(font
@@ -12915,7 +12915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-3362P-1-200LF"
+		(property "Mouser" "652-3362P-1-202LF"
 			(at 91.44 151.13 0)
 			(effects
 				(font
