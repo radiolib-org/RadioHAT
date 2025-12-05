@@ -60,8 +60,12 @@
       ],
       "drc_exclusions": [
         [
-          "solder_mask_bridge|157574600|106413500|692055d7-7b7f-4a80-ba3f-06f81bc68468|6b46d591-30f7-4bbf-bd8d-49b585a78d64",
-          "Intentional for solder jumper"
+          "footprint_type_mismatch|170400000|107400000|bc2c361f-93bd-44e1-9313-b6f5f405fb69|00000000-0000-0000-0000-000000000000",
+          "Combined SMT+THT"
+        ],
+        [
+          "solder_mask_bridge|157950000|120000000|692055d7-7b7f-4a80-ba3f-06f81bc68468|6b46d591-30f7-4bbf-bd8d-49b585a78d64",
+          "Custom footprint"
         ],
         [
           "starved_thermal|146380000|74653001|abc81b6c-5d19-4b0e-ad69-5e6a2523f2b4|da215f09-5d0f-4336-8f54-88be4e9a3a51|B.Cu",
@@ -85,9 +89,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "error",
         "holes_co_located": "error",
@@ -105,9 +109,9 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
