@@ -998,7 +998,7 @@
 		(embedded_fonts no)
 	)
 	(gr_text "CardName rev. X\ngitrev ${GITHASH}"
-		(at 150.4 76 0)
+		(at 150.4 76.15 0)
 		(layer "F.Cu")
 		(uuid "b053a6d3-9cf7-42b5-a41a-5519aca9b3a1")
 		(effects
