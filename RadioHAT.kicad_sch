@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RadioHAT Raspberry Pi HAT")
-		(rev "C")
+		(rev "E")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
@@ -1644,7 +1644,7 @@
 				)
 			)
 			(property "Mouser" "571-1775838-2"
-				(at 0 0 0)
+				(at 0.254 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1943,6 +1943,24 @@
 					)
 				)
 				(pin power_in line
+					(at -12.7 26.67 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -11.43 -27.94 90)
 					(length 2.54)
 					(name "GND"
@@ -1961,6 +1979,24 @@
 					)
 				)
 				(pin power_in line
+					(at -10.16 26.67 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -8.89 -27.94 90)
 					(length 2.54)
 					(name "GND"
@@ -1971,6 +2007,24 @@
 						)
 					)
 					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 26.67 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2006,7 +2060,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2042,7 +2096,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2069,24 +2123,6 @@
 					)
 				)
 				(pin power_in line
-					(at 0 26.67 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 1.27 -27.94 90)
 					(length 2.54)
 					(name "GND"
@@ -2105,16 +2141,16 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 26.67 270)
+					(at 3.81 26.67 270)
 					(length 2.54)
-					(name "3V3"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2141,16 +2177,16 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 26.67 270)
+					(at 6.35 26.67 270)
 					(length 2.54)
-					(name "3V3"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "52"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2169,6 +2205,24 @@
 						)
 					)
 					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 26.67 270)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4090,7 +4144,7 @@
 		(uuid "60aba89f-686a-4796-bdee-09c98353f868")
 	)
 	(junction
-		(at 243.84 36.83)
+		(at 236.22 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6200359c-f5dd-478f-86b5-4af607cf461a")
@@ -4174,7 +4228,7 @@
 		(uuid "8da61a11-4fb7-49b0-a4c5-eae1463a8e68")
 	)
 	(junction
-		(at 241.3 36.83)
+		(at 233.68 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ef4c0a0-0300-4ecd-814c-c989b0bde414")
@@ -4204,7 +4258,7 @@
 		(uuid "98cc48ce-de45-4d95-b064-cc8c3dde9fd4")
 	)
 	(junction
-		(at 246.38 36.83)
+		(at 238.76 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a44d9868-80f5-47dc-8faa-0350fa97840c")
@@ -4228,7 +4282,7 @@
 		(uuid "b222f4dd-6602-4560-a24c-0b1dd925feea")
 	)
 	(junction
-		(at 241.3 34.29)
+		(at 233.68 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b37f2385-468d-4583-be98-39c5d3146df8")
@@ -4282,7 +4336,7 @@
 		(uuid "e537a4c5-54b9-48fd-af28-8928a9e43482")
 	)
 	(junction
-		(at 248.92 36.83)
+		(at 241.3 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee334995-a132-4971-ad45-41909bdef338")
@@ -4300,6 +4354,10 @@
 	(no_connect
 		(at 267.97 69.85)
 		(uuid "2d4a2c39-03d3-4e31-9c09-e4192a39bb30")
+	)
+	(no_connect
+		(at 250.19 39.37)
+		(uuid "57edc778-ff52-4d61-a1a0-4835562ff5bd")
 	)
 	(no_connect
 		(at 267.97 53.34)
@@ -4324,6 +4382,14 @@
 	(no_connect
 		(at 267.97 55.88)
 		(uuid "b12c8089-7e5d-4832-baf8-42f0505b2ea3")
+	)
+	(no_connect
+		(at 255.27 39.37)
+		(uuid "d1c62e6e-6d91-4fc6-ab91-960e774e52dc")
+	)
+	(no_connect
+		(at 252.73 39.37)
+		(uuid "ef854192-6ddc-42b6-a871-3277d51f97fa")
 	)
 	(wire
 		(pts
@@ -4397,7 +4463,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 36.83) (xy 251.46 36.83)
+			(xy 241.3 36.83) (xy 243.84 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4587,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 34.29) (xy 241.3 34.29)
+			(xy 231.14 34.29) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4767,7 +4833,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 36.83) (xy 243.84 36.83)
+			(xy 233.68 36.83) (xy 236.22 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 36.83) (xy 246.38 36.83)
+			(xy 236.22 36.83) (xy 238.76 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5247,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 36.83) (xy 251.46 39.37)
+			(xy 243.84 36.83) (xy 243.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5387,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 246.38 39.37)
+			(xy 238.76 36.83) (xy 238.76 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 33.02) (xy 241.3 34.29)
+			(xy 233.68 33.02) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5507,7 +5573,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 36.83) (xy 248.92 39.37)
+			(xy 241.3 36.83) (xy 241.3 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 34.29) (xy 241.3 36.83)
+			(xy 233.68 34.29) (xy 233.68 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 36.83) (xy 241.3 39.37)
+			(xy 233.68 36.83) (xy 233.68 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5937,7 +6003,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 248.92 36.83)
+			(xy 238.76 36.83) (xy 241.3 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6767,7 +6833,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 36.83) (xy 243.84 39.37)
+			(xy 236.22 36.83) (xy 236.22 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8656,7 +8722,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 238.76 34.29 90)
+		(at 231.14 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8665,7 +8731,7 @@
 		(fields_autoplaced yes)
 		(uuid "2494f84c-bbf2-4e84-91bb-e4f84e5520d4")
 		(property "Reference" "#FLG04"
-			(at 236.855 34.29 0)
+			(at 229.235 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8740,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 234.95 34.2899 90)
+			(at 227.33 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 34.29 0)
+			(at 231.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 34.29 0)
+			(at 231.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +8767,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 238.76 34.29 0)
+			(at 231.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11173,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 241.3 33.02 0)
+		(at 233.68 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11116,7 +11182,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e00a2bd-a338-4923-8aee-4a31d9562f5f")
 		(property "Reference" "#PWR01"
-			(at 241.3 36.83 0)
+			(at 233.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11191,7 @@
 			)
 		)
 		(property "Value" "+3.3V_PCI"
-			(at 241.3 27.94 0)
+			(at 233.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +11199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 33.02 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 33.02 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +11217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 241.3 33.02 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,6 +12738,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -12850,6 +12917,15 @@
 		)
 		(pin "20"
 			(uuid "22ae11f1-0a3a-476e-a403-bd3419bc6485")
+		)
+		(pin "28"
+			(uuid "8cc730a3-f537-447e-86fb-067f56db22cf")
+		)
+		(pin "48"
+			(uuid "a72e0928-b94f-4f02-b718-b0cc273abe59")
+		)
+		(pin "6"
+			(uuid "ef5f584f-5876-4a6e-91b2-7593b9061bb8")
 		)
 		(instances
 			(project ""
