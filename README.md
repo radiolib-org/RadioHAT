@@ -35,7 +35,7 @@ The complete pinout of the connector (and therefore the PCIe cards) is shown bel
 | --- | -------- | -------- | --- |
 |   1 | GPIO0    | 3V3      | 2   |
 |   3 | IRQ0     | GND      | 4   |
-|   5 | IRQ1     | NC       | 6   |
+|   5 | IRQ1     | 5V       | 6   |
 |   7 | GPIO1    | NC       | 8   |
 |   9 | GND      | NC       | 10  |
 |  11 | RST0     | NC       | 12  |
@@ -46,7 +46,7 @@ The complete pinout of the connector (and therefore the PCIe cards) is shown bel
 |  21 | GND      | NC       | 22  |
 |  23 | NC       | 3V3      | 24  |
 |  25 | NC       | GND      | 26  |
-|  27 | GND      | NC       | 28  |
+|  27 | GND      | 5V       | 28  |
 |  29 | GND      | I2C_SCL  | 30  |
 |  31 | PPS      | I2C_SDA  | 32  |
 |  33 | NC       | GND      | 34  |
@@ -56,7 +56,7 @@ The complete pinout of the connector (and therefore the PCIe cards) is shown bel
 |  41 | 3V3      | LED0     | 42  |
 |  43 | GND      | LED1     | 44  |
 |  45 | SPI_SCK  | LED2     | 46  |
-|  47 | SPI_MISO | NC       | 48  |
+|  47 | SPI_MISO | 5V       | 48  |
 |  49 | SPI_MOSI | GND      | 50  |
 |  51 | SPI_NSS  | 3V3      | 52  |
 

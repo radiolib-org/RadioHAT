@@ -5105,6 +5105,24 @@
 				)
 			)
 			(pin power_in line
+				(at -12.7 26.67 270)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -11.43 -27.94 90)
 				(length 2.54)
 				(name "GND"
@@ -5123,6 +5141,24 @@
 				)
 			)
 			(pin power_in line
+				(at -10.16 26.67 270)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -8.89 -27.94 90)
 				(length 2.54)
 				(name "GND"
@@ -5133,6 +5169,24 @@
 					)
 				)
 				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 26.67 270)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5168,7 +5222,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5204,7 +5258,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "52"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5231,24 +5285,6 @@
 				)
 			)
 			(pin power_in line
-				(at 0 26.67 270)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 1.27 -27.94 90)
 				(length 2.54)
 				(name "GND"
@@ -5267,16 +5303,16 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 26.67 270)
+				(at 3.81 26.67 270)
 				(length 2.54)
-				(name "3V3"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5303,16 +5339,16 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 26.67 270)
+				(at 6.35 26.67 270)
 				(length 2.54)
-				(name "3V3"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "52"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5331,6 +5367,24 @@
 					)
 				)
 				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 26.67 270)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
 					(effects
 						(font
 							(size 1.27 1.27)
