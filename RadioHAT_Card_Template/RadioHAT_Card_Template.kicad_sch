@@ -53,7 +53,7 @@
 				)
 			)
 			(property "Mouser" "571-1775838-2"
-				(at 0 0 0)
+				(at 0.254 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2590,6 +2590,220 @@
 		)
 	)
 	(symbol
+		(lib_id "RadioHAT:Mini_PCIe")
+		(at 54.61 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6009c2f7-3c3f-4090-b214-57f8e9c3120b")
+		(property "Reference" "J1"
+			(at 65.6433 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 65.6433 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RadioHAT:Mini_PCIe_Full"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-1775838-2"
+			(at 54.864 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a1cd8295-1c5a-403f-b311-99036bac995f")
+		)
+		(pin "48"
+			(uuid "bf4c67f3-ce50-4c2b-a69c-b8efe8f25956")
+		)
+		(pin "34"
+			(uuid "3d80ad2d-54be-4d48-9076-82fedb58bee4")
+		)
+		(pin "47"
+			(uuid "4b16acc1-c8de-488c-ae61-1126d5afc4a4")
+		)
+		(pin "31"
+			(uuid "8fa1cf7e-7d3a-4592-ba45-70ffafd1c9ed")
+		)
+		(pin "1"
+			(uuid "8a590431-8e22-4c57-a7fa-4d29c0348af1")
+		)
+		(pin "9"
+			(uuid "02db6ed0-841b-4e24-ac8f-17ab06aefab5")
+		)
+		(pin "54"
+			(uuid "a5557537-876d-4e82-bc55-a7b7ed33347a")
+		)
+		(pin "24"
+			(uuid "becb90db-c372-4def-a10a-ba8e7f8b5d46")
+		)
+		(pin "57"
+			(uuid "d87e901a-519c-4092-a4dc-3f5b5b7876c6")
+		)
+		(pin "4"
+			(uuid "5a7c4704-8637-4cc4-b49e-06e9db831179")
+		)
+		(pin "18"
+			(uuid "cd65f3ea-65c2-4b05-880c-edefee0df1ee")
+		)
+		(pin "29"
+			(uuid "0fa9784f-cf66-4ee3-8b51-076e6d889deb")
+		)
+		(pin "50"
+			(uuid "ab90a96e-c01b-4b56-b621-07262ccad593")
+		)
+		(pin "55"
+			(uuid "a357bdb6-2c2f-4126-942e-766883de81f3")
+		)
+		(pin "28"
+			(uuid "8bdae150-49fe-4ffb-99cd-cf6672a5d2c9")
+		)
+		(pin "35"
+			(uuid "cd1f9c8c-9556-430d-8a0b-0851e29f38e1")
+		)
+		(pin "51"
+			(uuid "3fb0434d-3c66-4048-bd8a-1f649c6a1372")
+		)
+		(pin "15"
+			(uuid "87b095b9-68e4-41ad-92ea-d7b42086b170")
+		)
+		(pin "40"
+			(uuid "bdd94d7e-2692-434c-85b9-bb54d5edb1b8")
+		)
+		(pin "21"
+			(uuid "0a1ade5b-50d4-443f-aedb-03dfb5dbec1d")
+		)
+		(pin "43"
+			(uuid "f5dd9cf5-e1b1-4797-b0d8-06b85515fe90")
+		)
+		(pin "37"
+			(uuid "94245cb1-dfef-4524-8fbc-8fb875ab5d7f")
+		)
+		(pin "7"
+			(uuid "d4e7e529-b365-4464-82e3-025331a1caa8")
+		)
+		(pin "5"
+			(uuid "84f09e0a-c5d4-47e0-9eb6-c9c68cb6833b")
+		)
+		(pin "36"
+			(uuid "c0158b59-776f-4614-b6c4-309d51f9a971")
+		)
+		(pin "2"
+			(uuid "94c2fa25-03ce-40fb-99ee-37d183c6ee64")
+		)
+		(pin "41"
+			(uuid "ec872b11-0ba6-4740-ad77-b84026a967a4")
+		)
+		(pin "52"
+			(uuid "382db25b-83de-4cb3-89d8-e28099b4056e")
+		)
+		(pin "42"
+			(uuid "52c23fc7-0fde-444a-9fc6-4de6239e0ad4")
+		)
+		(pin "46"
+			(uuid "b5709d31-fdb3-44c7-b6fa-7ae11a350b8b")
+		)
+		(pin "32"
+			(uuid "6809ab62-0bb1-491b-b97b-95cbe54c997e")
+		)
+		(pin "13"
+			(uuid "a5ab8ccb-04bc-4106-ac67-af4adc4b95ef")
+		)
+		(pin "27"
+			(uuid "18348f71-7c2d-477b-9b34-4f4b2a752727")
+		)
+		(pin "30"
+			(uuid "1ca2b2d2-ae6d-4321-91a4-905b0e87ad81")
+		)
+		(pin "44"
+			(uuid "9c4f10cf-b138-41b8-bd1c-a7cf440a103f")
+		)
+		(pin "49"
+			(uuid "b8059e59-c4b2-4535-b63e-465ea679d2b9")
+		)
+		(pin "53"
+			(uuid "c0200122-9f97-4c7b-984c-6717b883a74b")
+		)
+		(pin "39"
+			(uuid "b2a57dc4-326f-4583-85f5-38abfedadaa1")
+		)
+		(pin "26"
+			(uuid "1a5da23e-3744-48a6-9bfe-7502fa1c154d")
+		)
+		(pin "6"
+			(uuid "5d236b63-2dbd-458c-815a-e06520e455bf")
+		)
+		(pin "45"
+			(uuid "0b669dbd-c5d4-4012-b4ff-37cec6527ba6")
+		)
+		(pin "38"
+			(uuid "bb734a52-8936-47ce-aecb-f3c281761660")
+		)
+		(pin "56"
+			(uuid "f38cecd5-d429-445e-a104-2bdf5b9d33ff")
+		)
+		(pin "20"
+			(uuid "6c8889f1-1b76-46a1-954c-0ae23d3ca98b")
+		)
+		(pin "11"
+			(uuid "07e1647b-5912-4e98-b5ab-be745c424b8f")
+		)
+		(pin "58"
+			(uuid "0e74ecb4-8957-40e8-a9a2-7502ea92ae9f")
+		)
+		(instances
+			(project ""
+				(path "/61a69050-cb5e-4dbc-87a1-bbbff559bb0e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 76.2 0)
 		(unit 1)
@@ -3045,219 +3259,6 @@
 			(project "RadioHAT_Card_Template"
 				(path "/61a69050-cb5e-4dbc-87a1-bbbff559bb0e"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RadioHAT:Mini_PCIe")
-		(at 54.61 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f550be6c-bc25-45d5-ad75-387d57b8d581")
-		(property "Reference" "J1"
-			(at 69.596 25.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 61.8333 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RadioHAT:Mini_PCIe_Full"
-			(at 59.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "571-1775838-2"
-			(at 54.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "51"
-			(uuid "5893bb12-7440-4fa9-95db-68936f1b3e54")
-		)
-		(pin "13"
-			(uuid "1f543e6a-9b28-4ba3-b9da-69926e0bfd80")
-		)
-		(pin "39"
-			(uuid "1184201d-e8d6-45b2-b286-ce2f3cb857f6")
-		)
-		(pin "41"
-			(uuid "4b3119e8-3516-42f7-8cb5-81e93ab07807")
-		)
-		(pin "52"
-			(uuid "d9b93268-3480-4190-bc34-78177ec81933")
-		)
-		(pin "3"
-			(uuid "7acd75fc-d641-4c3d-8e6c-1c774c21a142")
-		)
-		(pin "5"
-			(uuid "a8af7509-0189-494c-8200-c07815440d0c")
-		)
-		(pin "9"
-			(uuid "56c711f5-274d-4e9b-b83f-841fed198f35")
-		)
-		(pin "2"
-			(uuid "0cd20ba2-0ae8-4c96-9cea-06acc1918f18")
-		)
-		(pin "26"
-			(uuid "b2c55acc-587e-4d06-9277-6e1b8d73c508")
-		)
-		(pin "49"
-			(uuid "96eeaf0e-8ac5-47c3-aea2-c3f46efe7f37")
-		)
-		(pin "1"
-			(uuid "ffb46ed7-b8b9-4838-8418-bda4896521ee")
-		)
-		(pin "11"
-			(uuid "8d6e3795-92c2-4059-87f8-f0b1ec4c94a5")
-		)
-		(pin "7"
-			(uuid "f98db323-1747-448a-bf4f-ab040e316e60")
-		)
-		(pin "54"
-			(uuid "2e4243fa-2895-4c29-bf48-91bdc79edeaf")
-		)
-		(pin "53"
-			(uuid "08a0a2a8-9b79-4134-bc49-822f77773ec8")
-		)
-		(pin "4"
-			(uuid "542a3422-648f-4e35-b00a-471b3397eb7a")
-		)
-		(pin "18"
-			(uuid "abebf0d3-51c9-40f5-9f6e-1fe8b8187f9e")
-		)
-		(pin "15"
-			(uuid "40e4d1dc-f3cf-474a-8f40-8facb4ac0ada")
-		)
-		(pin "24"
-			(uuid "e5a11705-114d-44c2-90e4-c4d86435d413")
-		)
-		(pin "21"
-			(uuid "414b88c9-c709-4925-9a08-474a8f5cf838")
-		)
-		(pin "27"
-			(uuid "c95f3149-6a27-4985-a8e7-c248d66a5ce0")
-		)
-		(pin "29"
-			(uuid "51762cb8-5215-4869-9da4-79fce072c63e")
-		)
-		(pin "34"
-			(uuid "542509c8-99c0-40f6-9345-68e2bc506f54")
-		)
-		(pin "35"
-			(uuid "6fb33521-f2b4-420c-b990-7e9c94ce57c8")
-		)
-		(pin "37"
-			(uuid "01768cf4-20f9-4da7-8d1e-c0602086d01f")
-		)
-		(pin "40"
-			(uuid "bba675a5-1f75-4afa-9ba7-b5714472c78d")
-		)
-		(pin "43"
-			(uuid "2ccd458d-774f-4231-8d1c-2c89f355275f")
-		)
-		(pin "50"
-			(uuid "4c823757-9fd2-4a08-aa57-58bf9e6a3743")
-		)
-		(pin "46"
-			(uuid "cc8cafe2-fbea-4662-b612-bc1c3793a10e")
-		)
-		(pin "42"
-			(uuid "ff2e364c-7ef2-4502-8414-591a2682bf1a")
-		)
-		(pin "56"
-			(uuid "e23d6c0a-29dd-4d09-8da9-5702a00fb6a5")
-		)
-		(pin "36"
-			(uuid "fb25ce6d-47c4-421c-83e2-027843a39b25")
-		)
-		(pin "57"
-			(uuid "beeba0da-752f-4fc1-9e0f-80ef942fb8d1")
-		)
-		(pin "44"
-			(uuid "e61ff455-68be-4477-8f83-1fb7c87fc194")
-		)
-		(pin "30"
-			(uuid "596d183b-6be6-41d8-b99c-069c697c0eaf")
-		)
-		(pin "55"
-			(uuid "5afd27f3-1931-4e54-9256-a3d38e1149ae")
-		)
-		(pin "31"
-			(uuid "90755bcf-0bc2-40a8-a4b4-9932948ee537")
-		)
-		(pin "32"
-			(uuid "7a92b0e3-93ad-48d4-8bdb-69ee054b308b")
-		)
-		(pin "58"
-			(uuid "cbf912e1-7b59-4047-8d9d-e1df4d28b9e2")
-		)
-		(pin "38"
-			(uuid "3e7611ee-34ff-4a1b-8c62-dfdc15f5b4f4")
-		)
-		(pin "47"
-			(uuid "8f401fb6-4a5b-432c-b11d-d82cc776c07a")
-		)
-		(pin "45"
-			(uuid "2d752d32-490d-4316-8401-87db3f7d779a")
-		)
-		(pin "20"
-			(uuid "b954c047-96a6-4be5-9b8f-82c7c8a2af80")
-		)
-		(pin "6"
-			(uuid "bfb75679-e3e3-4ee8-8fe7-177708dce000")
-		)
-		(pin "28"
-			(uuid "e0d161eb-5b6c-49e3-b9c3-d8c111fe843a")
-		)
-		(pin "48"
-			(uuid "1d0c4913-1fab-4c6d-87f0-9a0ba12e3f18")
-		)
-		(instances
-			(project "RadioHAT_Card_Template"
-				(path "/61a69050-cb5e-4dbc-87a1-bbbff559bb0e"
-					(reference "J1")
 					(unit 1)
 				)
 			)
