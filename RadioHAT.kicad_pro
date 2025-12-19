@@ -60,6 +60,14 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|146505000|113505000|1be6d58e-833b-4404-bb7f-064a12d563f7|bc2c361f-93bd-44e1-9313-b6f5f405fb69",
+          "Address solder pad only, typically left at default"
+        ],
+        [
+          "courtyards_overlap|150255000|113505000|6ee3049d-c6c0-4ba7-86f9-57a8f87ae096|bc2c361f-93bd-44e1-9313-b6f5f405fb69",
+          "Address solder pad only, typically left at default"
+        ],
+        [
           "footprint_type_mismatch|170400000|107400000|bc2c361f-93bd-44e1-9313-b6f5f405fb69|00000000-0000-0000-0000-000000000000",
           "Combined SMT+THT"
         ],
