@@ -4425,6 +4425,12 @@
 		(uuid "8bab1af4-7c8b-49d0-b8cc-9226f9657a28")
 	)
 	(junction
+		(at 255.27 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c0cb331-950f-4def-9f6a-7d63f22df3bc")
+	)
+	(junction
 		(at 234.95 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5140,6 +5146,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 35.56) (xy 257.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9ff1b8-3637-4892-9e3a-53005ad4dcb3")
+	)
+	(wire
+		(pts
 			(xy 163.83 88.9) (xy 163.83 93.98)
 		)
 		(stroke
@@ -5190,7 +5206,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 33.02) (xy 255.27 36.83)
+			(xy 255.27 33.02) (xy 255.27 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6267,6 +6283,16 @@
 			(type default)
 		)
 		(uuid "a2f3da4c-cf7f-4232-906e-3516ff4055ce")
+	)
+	(wire
+		(pts
+			(xy 255.27 35.56) (xy 255.27 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3eabd87-0edf-47f4-9fcf-7988b9e34ad0")
 	)
 	(wire
 		(pts
@@ -11024,6 +11050,72 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 257.81 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83d42374-cbd5-4f1b-a852-cb332c9b9494")
+		(property "Reference" "#FLG05"
+			(at 259.715 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 261.62 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9ed215a-8d46-4f86-899c-44ee62f405f4")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
