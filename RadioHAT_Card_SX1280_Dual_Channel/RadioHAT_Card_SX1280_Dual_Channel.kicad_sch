@@ -1637,7 +1637,7 @@
 				)
 			)
 			(property "Mouser" "571-1775838-2"
-				(at 0 0 0)
+				(at 0.254 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
