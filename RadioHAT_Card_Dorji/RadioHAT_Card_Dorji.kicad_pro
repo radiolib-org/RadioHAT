@@ -633,5 +633,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "GITHASH": "GITHASH"
+  }
 }
