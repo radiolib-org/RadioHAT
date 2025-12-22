@@ -50,6 +50,7 @@ jobs:
         kibot -e RadioHAT_Card_Dorji/RadioHAT_Card_Dorji.kicad_sch -b RadioHAT_Card_Dorji/RadioHAT_Card_Dorji.kicad_pcb -d generated -s run_erc -i
         kibot -e RadioHAT_Card_GNiceRF/RadioHAT_Card_GNiceRF.kicad_sch -b RadioHAT_Card_GNiceRF/RadioHAT_Card_GNiceRF.kicad_pcb -d generated -s run_erc -i
         kibot -e RadioHAT_Card_Ebyte/RadioHAT_Card_Ebyte.kicad_sch -b RadioHAT_Card_Ebyte/RadioHAT_Card_Ebyte.kicad_pcb -d generated -s run_erc -i
+        kibot -e RadioHAT_Card_SX1280_Dual_Channel/RadioHAT_Card_SX1280_Dual_Channel.kicad_sch -b RadioHAT_Card_SX1280_Dual_Channel/RadioHAT_Card_SX1280_Dual_Channel.kicad_pcb -d generated -s run_erc -i
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
@@ -75,6 +76,7 @@ jobs:
         kibot -e RadioHAT_Card_Dorji/RadioHAT_Card_Dorji.kicad_sch -b RadioHAT_Card_Dorji/RadioHAT_Card_Dorji.kicad_pcb -d generated 3d-render-view pcb_doc_archive pcb_assembly_archive pcb_fabrication_archive
         kibot -e RadioHAT_Card_GNiceRF/RadioHAT_Card_GNiceRF.kicad_sch -b RadioHAT_Card_GNiceRF/RadioHAT_Card_GNiceRF.kicad_pcb -d generated 3d-render-view pcb_doc_archive pcb_assembly_archive pcb_fabrication_archive
         kibot -e RadioHAT_Card_Ebyte/RadioHAT_Card_Ebyte.kicad_sch -b RadioHAT_Card_Ebyte/RadioHAT_Card_Ebyte.kicad_pcb -d generated 3d-render-view pcb_doc_archive pcb_assembly_archive pcb_fabrication_archive
+        kibot -e RadioHAT_Card_SX1280_Dual_Channel/RadioHAT_Card_SX1280_Dual_Channel.kicad_sch -b RadioHAT_Card_SX1280_Dual_Channel/RadioHAT_Card_SX1280_Dual_Channel.kicad_pcb -d generated 3d-render-view pcb_doc_archive pcb_assembly_archive pcb_fabrication_archive
 
     - name: Release
       uses: softprops/action-gh-release@v2
