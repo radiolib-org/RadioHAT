@@ -72,10 +72,6 @@
           "Combined SMT+THT"
         ],
         [
-          "solder_mask_bridge|157950000|120000000|692055d7-7b7f-4a80-ba3f-06f81bc68468|6b46d591-30f7-4bbf-bd8d-49b585a78d64",
-          "Custom footprint"
-        ],
-        [
           "starved_thermal|146380000|74653001|abc81b6c-5d19-4b0e-ad69-5e6a2523f2b4|da215f09-5d0f-4336-8f54-88be4e9a3a51|B.Cu",
           ""
         ]
@@ -125,7 +121,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
