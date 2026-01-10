@@ -9014,6 +9014,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dc0b191-7998-4f0e-95c8-52f37495e3eb")
+		(property "Reference" "R8"
+			(at 170.434 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92c05f5e-caee-404c-b0dd-e2249d84867b")
+		)
+		(pin "1"
+			(uuid "0694ddb1-2734-4c7f-9a41-36a8cc8bd4fa")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 90.17 0)
 		(unit 1)
@@ -9154,7 +9230,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "261c2032-2da1-471f-9a1d-43e375516864")
+		(uuid "25a7f1ce-809c-48d4-855c-c9502bbe7a67")
 		(property "Reference" "R12"
 			(at 170.434 86.614 90)
 			(effects
@@ -9198,16 +9274,101 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "78f49992-2c50-4eb4-a4bf-1af45c5e4eda")
+			(uuid "8c06b551-faa1-4ee9-a789-f0e96ed89922")
 		)
 		(pin "1"
-			(uuid "3a3e52bb-1945-4fe4-85ee-cd2762054a7a")
+			(uuid "c3c89c8b-4cd0-479e-9177-6ff4e402a57a")
 		)
 		(instances
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "286552e4-02cf-4be2-a60a-fa4d56ed4b6e")
+		(property "Reference" "R5"
+			(at 170.434 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e953a196-4bf3-4665-aa98-4b8d47971208")
+		)
+		(pin "1"
+			(uuid "56d49c36-d796-45f0-9519-b68123fa68dc")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9427,6 +9588,82 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d66427-8fe4-4354-b964-57980563d2f7")
+		(property "Reference" "R4"
+			(at 170.434 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8539fa0b-0707-458a-9cc6-845a90b90a2a")
+		)
+		(pin "1"
+			(uuid "9bbecb80-17a8-4b98-9ec5-bea1437cccc7")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9702,6 +9939,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ed70e92-e984-4cff-a818-863271c9e5f1")
 		)
@@ -9779,6 +10025,158 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "430a4bf9-1a0f-48b1-897d-e2a77b33c368")
+		(property "Reference" "R10"
+			(at 170.434 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddae2f1e-2004-4f68-8dcb-36020fbb7bc4")
+		)
+		(pin "1"
+			(uuid "1cf27755-6dab-4489-9847-30b20145320f")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45ae9a40-c54a-4b2f-8e00-7abbe2f658f8")
+		(property "Reference" "R7"
+			(at 170.434 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5659472-6342-4aac-a8ce-323eafda8a84")
+		)
+		(pin "1"
+			(uuid "2591c9c5-8459-48ea-b450-52890e543de7")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9912,73 +10310,6 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "534d93cd-cc88-4d78-aa06-e16d6a5584ad")
-		(property "Reference" "R2"
-			(at 170.434 35.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 35.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ddfab6fc-699b-4a60-9e3f-f95b3bf44f41")
-		)
-		(pin "1"
-			(uuid "ebef206c-e943-46d9-8435-923ad9cd317d")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10333,140 +10664,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65ea17f0-bd11-4d7f-8fe2-20042051972b")
-		(property "Reference" "R11"
-			(at 170.434 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a67da8a2-055a-43d9-b44f-56a816b57888")
-		)
-		(pin "1"
-			(uuid "afad0cb1-576f-47ba-983c-24b35e976b77")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ae8218c-a287-40e4-ad62-2fef28cb24c7")
-		(property "Reference" "R5"
-			(at 170.434 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24895ed6-7530-47e7-9389-61ef3c5619f4")
-		)
-		(pin "1"
-			(uuid "0ab81e31-567a-412f-960f-618f98cfeaea")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 246.38 97.79 0)
 		(unit 1)
@@ -10527,73 +10724,6 @@
 			(project ""
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ce98577-0c14-4090-94b7-c8f6a3c5ee0c")
-		(property "Reference" "R6"
-			(at 170.434 56.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 56.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8dff24fe-787d-4a12-a1c8-1250112c6409")
-		)
-		(pin "1"
-			(uuid "cca84e79-1e9e-48dc-94bb-78e473219cb8")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10710,6 +10840,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "523-G800LW589018EU"
 			(at 147.32 81.28 0)
 			(effects
 				(font
@@ -10989,73 +11128,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f4cd7e5-92a2-4111-be50-f349f83616e1")
-		(property "Reference" "R10"
-			(at 170.434 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c45a2324-1896-4996-96b5-f010cd8bd189")
-		)
-		(pin "1"
-			(uuid "66dff353-91fc-48df-9a0b-1f24a04f8694")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 257.81 35.56 270)
 		(unit 1)
@@ -11320,140 +11392,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "892ff231-0f58-4ee4-b6ef-0045f8ef2bfb")
-		(property "Reference" "R8"
-			(at 170.434 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d26cd8a0-e08a-4ba4-932c-76a80fa2321a")
-		)
-		(pin "1"
-			(uuid "9b89c8ec-d8b9-4af7-9d17-711cc76c57dc")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8abd0e85-9bdd-4ae2-b8a9-277523664c36")
-		(property "Reference" "R4"
-			(at 170.434 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4518bdb2-9d5a-4f7c-838f-cf0bf701c1f0")
-		)
-		(pin "1"
-			(uuid "80651ffb-8519-463f-9b10-6b3e9305cf89")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 99.06 34.29 270)
 		(unit 1)
@@ -11515,73 +11453,6 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98a4d5df-8b95-47c4-b590-6647ebfae166")
-		(property "Reference" "R9"
-			(at 170.434 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 75.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c24b32f3-97ae-4fba-a73f-94ef8c9a8c05")
-		)
-		(pin "1"
-			(uuid "4742ea65-d16b-4602-9fd1-689d546b9c2d")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11667,6 +11538,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ba2435-6918-49b1-a2c5-1f3bdbfd1db8")
+		(property "Reference" "R3"
+			(at 170.434 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "970474fa-78ca-4014-b8a0-d01fda04909e")
+		)
+		(pin "1"
+			(uuid "9a53d7e7-cc6c-41f9-b87f-bc4b8feec6f2")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 233.68 33.02 0)
 		(unit 1)
@@ -11727,6 +11674,158 @@
 			(project ""
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4286c81-09e3-4385-a105-3739a92f1e92")
+		(property "Reference" "R13"
+			(at 170.434 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59da6e3f-a55e-4981-a4e5-919db69d3e0c")
+		)
+		(pin "1"
+			(uuid "41083830-1e4f-4ba4-8ed4-923904fb1e61")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4c57d57-b845-42fe-8b7e-c668e27d48c7")
+		(property "Reference" "R6"
+			(at 170.434 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd7167ed-3f5b-47e5-869c-c36d00da3362")
+		)
+		(pin "1"
+			(uuid "e8aaa589-8b78-4e43-a080-880942786da9")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11812,6 +11911,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab6e42c6-9ef6-4b21-8f67-cbc1613a38cb")
+		(property "Reference" "R11"
+			(at 170.434 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8510c302-0d88-4ff9-9439-bedd19cd5d58")
+		)
+		(pin "1"
+			(uuid "14a01060-b25c-43b6-a1c5-a6b7727013fb")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 116.84 0)
 		(unit 1)
@@ -11872,73 +12047,6 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5014503-bb30-4afb-a3ef-0522259a6afd")
-		(property "Reference" "R13"
-			(at 170.434 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b667e064-1992-4b59-8b95-f9314bee0505")
-		)
-		(pin "1"
-			(uuid "2b566345-f91d-4046-a185-e25c7aeff099")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12077,6 +12185,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd49ea0d-fb1d-4cae-b106-a9412dbfdab1")
+		(property "Reference" "R2"
+			(at 170.434 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f17d474-f6c4-44cd-bb96-cee657f37980")
+		)
+		(pin "1"
+			(uuid "36431331-0ac6-489e-80ff-179157ee4110")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 270.51 86.36 0)
 		(unit 1)
@@ -12137,73 +12321,6 @@
 			(project "RadioHAT"
 				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfb0ccbe-9ee3-46ad-a4d5-b4cac3d290de")
-		(property "Reference" "R3"
-			(at 170.434 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e919793-405b-468e-aff8-cd1ed0059d70")
-		)
-		(pin "1"
-			(uuid "5c4613e8-de94-4d3c-bb7a-4551d7d2f459")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12915,73 +13032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de74db92-1b9d-49d4-b1c5-4694e78e3fbc")
-		(property "Reference" "R7"
-			(at 170.434 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89309ecc-49d0-40d6-be10-d4d00efb997c")
-		)
-		(pin "1"
-			(uuid "7794a0a0-87a1-405e-bc89-192c6a06f441")
-		)
-		(instances
-			(project "RadioHAT"
-				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 125.73 114.3 0)
 		(unit 1)
@@ -13113,6 +13163,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e80e4c0e-d409-4d0e-9bd6-2ebac5442237")
+		(property "Reference" "R9"
+			(at 170.434 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-131KL"
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "000d3c90-b047-441a-aeeb-f36a02c22b23")
+		)
+		(pin "1"
+			(uuid "7c945271-73fd-42ba-898b-047dd5526b9e")
+		)
+		(instances
+			(project "RadioHAT"
+				(path "/b81b30b5-0f95-4689-93f2-268be91e8e59"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
 		(at 147.32 45.72 0)
 		(unit 1)
@@ -13157,6 +13283,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "523-G800LW589018EU"
 			(at 147.32 45.72 0)
 			(effects
 				(font
