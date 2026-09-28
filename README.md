@@ -21,6 +21,9 @@ While these features are useful, they are entirely optional. Without them, the H
 ## Card for modules from Ebyte
 ![RadioHAT Ebyte card](https://github.com/radiolib-org/RadioHAT/releases/latest/download/RadioHAT_Card_Ebyte-3D_top.png)
 
+## Card for Wio-E5
+![RadioHAT Wio-E5 card](https://github.com/radiolib-org/RadioHAT/releases/latest/download/RadioHAT_Card_WioE5-3D_top.png)
+
 ## Mini PCIe connector pinout
 Different vendors (RAK Wireless, Waveshare, SeeedStudio and others) offer radio modules in the mini-PCIe card form factor. However, there seems to be no consensus on any specific pinout. Naturally, RadioLib defines its own version to add to the confusion. However, we try to adhere to the standard Mini PCIe 2.0 pinout in the following ways:
 
